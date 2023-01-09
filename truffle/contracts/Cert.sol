@@ -18,22 +18,25 @@ contract Cert {
         string candidateName;
         string grade;
         string date;
+        bytes document;
     }
 
-    mapping(string => certificate) public certificateDetails;
+    mapping(uint => certificate) public certificateDetails;
 
     function newCertificate(
-        string memory _certificateID,
+        uint _certificateID,
         string memory _courseName,
         string memory _candidateName,
         string memory _grade,
-        string memory _date
+        string memory _date,
+        bytes memory _document
     ) public onlyAdmin {
         certificateDetails[_certificateID] = certificate(
             _courseName,
             _candidateName,
             _grade,
-            _date
+            _date,
+            _document
         );
     }
 }

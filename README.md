@@ -12,13 +12,14 @@ Revitalised the Certificate Dapp example with newest technologies.
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
 <a href="https://web3js.readthedocs.io/en/v1.7.1/#" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/web3js-colored.svg" width="36" height="36" alt="Web3Js" /></a>
 <a href="https://trufflesuite.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/truffle-colored.svg" width="36" height="36" alt="Truffle" /></a>
+<a href="https://ipfs.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ipfs-colored.svg" width="36" height="36" alt="IPFS" /></a>
 <a href="https://metamask.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/metamask-colored.svg" width="36" height="36" alt="MetaMask" /></a>
 </p>
 
 
 ## ⚙️ Run Locally
 
-Make sure to have a blockchain simulation (ganache/geth/foundry etc.) running on your port 8545.
+Make sure to have a blockchain simulation (ganache/geth/foundry etc.) running on your port 8545. 
 
 Clone the project
 
@@ -66,6 +67,18 @@ Start the application
 
 ```bash
   npm run dev
+```
+
+Enable cors in IPFS config and restart the application
+
+```bash
+  "API": {
+		"HTTPHeaders": {
+			"Access-Control-Allow-Origin": [
+				"*"
+			]
+		}
+	},
 ```
 
 

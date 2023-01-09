@@ -1,11 +1,22 @@
 <script>
+    import { create } from "ipfs-http-client";
+
+    export let form;
+    let result;
+
     const connectToMetaMask = async () => {
         const account = await window.ethereum.request({
             method: "eth_requestAccounts",
         });
         alert("Connected to " + account);
     };
-    export let form;
+
+    const uploadToIPFS = async (e) => {
+        const file = e.target.files[0];
+        const client = create("/ip4/127.0.0.1/tcp/5001");
+        result = await client.add(file);
+        // console.log(result);
+    };
 </script>
 
 <div>
@@ -21,22 +32,44 @@
             <label for="name">Enter Candidate Name:</label>
             <input type="text" name="name" required />
             <br /><br />
-            <label for="course">Select Course:</label>
+            <label for="course">Course:</label>
             <select name="course" required>
+                <option hidden selected>Select Course</option>
+                <option value="CBA">CBA</option>
                 <option value="CED">CED</option>
                 <option value="CHF">CHF</option>
-                <option value="CBA">CBA</option>
+                <option value="CBR">CBR</option>
             </select>
             <br /><br />
-            <label for="grade">Select Grade:</label>
+            <label for="grade">Grade:</label>
             <select name="grade" required>
+                <option hidden selected>Select Grade</option>
                 <option value="S">S</option>
                 <option value="A">A</option>
                 <option value="B">B</option>
+                <option value="C">C</option>
             </select>
             <br /><br />
             <label for="date">Date:</label>
             <input type="date" name="date" required />
+            <br /><br />
+            <label for="document">Document:</label>
+            <input
+                type="file"
+                name="document"
+                accept=".pdf"
+                required
+                on:change={uploadToIPFS}
+            />
+            <br /><br />
+            <label for="cid">IPFS CID:</label>
+            <input
+                type="text"
+                name="cid"
+                readonly
+                size="60"
+                value={result ? result.path : null}
+            />
             <br /><br />
             <button type="submit">Issue</button>
         </form>
