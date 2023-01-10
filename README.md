@@ -73,12 +73,12 @@ Enable cors in IPFS config and restart the application
 
 ```bash
   "API": {
-		"HTTPHeaders": {
-			"Access-Control-Allow-Origin": [
-				"*"
-			]
-		}
-	},
+    "HTTPHeaders": {
+      "Access-Control-Allow-Origin": [
+        "*"
+      ]
+    }
+  },
 ```
 
 
