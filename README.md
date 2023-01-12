@@ -1,20 +1,20 @@
+# SvelteKit-Truffle-DApp
 
-# Sveltekit-Truffle-Dapp
-
-Revitalised the Certificate Dapp example with newest technologies.
+Revitalised the Certificate DApp example with newest technologies.
 
 
 ## 🛠 Built With
 
-<p align="left">
-<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
-<a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/svelte-colored.svg" width="36" height="36" alt="SvelteKit" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-<a href="https://web3js.readthedocs.io/en/v1.7.1/#" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/web3js-colored.svg" width="36" height="36" alt="Web3Js" /></a>
-<a href="https://trufflesuite.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/truffle-colored.svg" width="36" height="36" alt="Truffle" /></a>
-<a href="https://ipfs.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ipfs-colored.svg" width="36" height="36" alt="IPFS" /></a>
-<a href="https://metamask.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/metamask-colored.svg" width="36" height="36" alt="MetaMask" /></a>
-</p>
+<div align="left">
+<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/nodejs.svg" width="36" height="36" alt="NodeJS" /></a>
+<a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/svelte.svg" width="36" height="36" alt="SvelteKit" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/javascript.svg" width="36" height="36" alt="JavaScript" /></a>
+<a href="https://soliditylang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/solidity.svg" width="36" height="36" alt="Solidity" /></a>
+<a href="https://web3js.readthedocs.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/web3js.svg" width="36" height="36" alt="Web3Js" /></a>
+<a href="https://trufflesuite.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/truffle.svg" width="36" height="36" alt="Truffle" /></a>
+<a href="https://ipfs.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/ipfs.svg" width="36" height="36" alt="IPFS" /></a>
+<a href="https://metamask.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/DEMYSTIF/DEMYSTIF/bc1af50088a86d0c03085862403738d7884e27b7/assets/icons/metamask.svg" width="36" height="36" alt="MetaMask" /></a>
+</div>
 
 
 ## ⚙️ Run Locally
